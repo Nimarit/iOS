@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD907CCB1CD324A600170665 /* berkeleypic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CD907CCA1CD324A600170665 /* berkeleypic.jpg */; };
+		CDEA8D381CCA172900A60B6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA8D371CCA172900A60B6B /* AppDelegate.swift */; };
+		CDEA8D3A1CCA172900A60B6B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA8D391CCA172900A60B6B /* LoginViewController.swift */; };
+		CDEA8D3D1CCA172900A60B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEA8D3B1CCA172900A60B6B /* Main.storyboard */; };
+		CDEA8D401CCA172900A60B6B /* Schedj.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDEA8D3E1CCA172900A60B6B /* Schedj.xcdatamodeld */; };
+		CDEA8D421CCA172900A60B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDEA8D411CCA172900A60B6B /* Assets.xcassets */; };
+		CDEA8D451CCA172900A60B6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDEA8D431CCA172900A60B6B /* LaunchScreen.storyboard */; };
+		CDEA8D501CCA172900A60B6B /* SchedjTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA8D4F1CCA172900A60B6B /* SchedjTests.swift */; };
+		CDEA8D5B1CCA172900A60B6B /* SchedjUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA8D5A1CCA172900A60B6B /* SchedjUITests.swift */; };
+		CDEA8D6C1CCA183300A60B6B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEA8D6B1CCA183300A60B6B /* HomeViewController.swift */; };
+		CDEA8D6E1CCAAC0A00A60B6B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEA8D6D1CCAAC0A00A60B6B /* FBSDKCoreKit.framework */; };
+		CDEA8D701CCAAC1400A60B6B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEA8D6F1CCAAC1400A60B6B /* FBSDKLoginKit.framework */; };
+		CDEA8D721CCAAC1E00A60B6B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEA8D711CCAAC1E00A60B6B /* FBSDKShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDEA8D4C1CCA172900A60B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDEA8D2C1CCA172800A60B6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEA8D331CCA172800A60B6B;
+			remoteInfo = Schedj;
+		};
+		CDEA8D571CCA172900A60B6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDEA8D2C1CCA172800A60B6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDEA8D331CCA172800A60B6B;
+			remoteInfo = Schedj;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD907CCA1CD324A600170665 /* berkeleypic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = berkeleypic.jpg; sourceTree = "<group>"; };
+		CDEA8D341CCA172800A60B6B /* Schedj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Schedj.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEA8D371CCA172900A60B6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDEA8D391CCA172900A60B6B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CDEA8D3C1CCA172900A60B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDEA8D3F1CCA172900A60B6B /* Schedj.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Schedj.xcdatamodel; sourceTree = "<group>"; };
+		CDEA8D411CCA172900A60B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDEA8D441CCA172900A60B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDEA8D461CCA172900A60B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDEA8D4B1CCA172900A60B6B /* SchedjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchedjTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEA8D4F1CCA172900A60B6B /* SchedjTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedjTests.swift; sourceTree = "<group>"; };
+		CDEA8D511CCA172900A60B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDEA8D561CCA172900A60B6B /* SchedjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchedjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEA8D5A1CCA172900A60B6B /* SchedjUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedjUITests.swift; sourceTree = "<group>"; };
+		CDEA8D5C1CCA172900A60B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDEA8D6B1CCA183300A60B6B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CDEA8D6D1CCAAC0A00A60B6B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		CDEA8D6F1CCAAC1400A60B6B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		CDEA8D711CCAAC1E00A60B6B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		CDEA8D751CCC75F900A60B6B /* FacebookSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacebookSDK.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDEA8D311CCA172800A60B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEA8D701CCAAC1400A60B6B /* FBSDKLoginKit.framework in Frameworks */,
+				CDEA8D6E1CCAAC0A00A60B6B /* FBSDKCoreKit.framework in Frameworks */,
+				CDEA8D721CCAAC1E00A60B6B /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEA8D481CCA172900A60B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEA8D531CCA172900A60B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDEA8D2B1CCA172800A60B6B = {
+			isa = PBXGroup;
+			children = (
+				CDEA8D361CCA172800A60B6B /* Schedj */,
+				CDEA8D4E1CCA172900A60B6B /* SchedjTests */,
+				CDEA8D591CCA172900A60B6B /* SchedjUITests */,
+				CDEA8D351CCA172800A60B6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDEA8D351CCA172800A60B6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDEA8D341CCA172800A60B6B /* Schedj.app */,
+				CDEA8D4B1CCA172900A60B6B /* SchedjTests.xctest */,
+				CDEA8D561CCA172900A60B6B /* SchedjUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDEA8D361CCA172800A60B6B /* Schedj */ = {
+			isa = PBXGroup;
+			children = (
+				CDEA8D751CCC75F900A60B6B /* FacebookSDK.h */,
+				CDEA8D6A1CCA17D000A60B6B /* Model */,
+				CDEA8D691CCA17C300A60B6B /* View */,
+				CDEA8D681CCA17BB00A60B6B /* Controller */,
+				CDEA8D731CCAAC6600A60B6B /* Support */,
+			);
+			path = Schedj;
+			sourceTree = "<group>";
+		};
+		CDEA8D4E1CCA172900A60B6B /* SchedjTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDEA8D4F1CCA172900A60B6B /* SchedjTests.swift */,
+				CDEA8D511CCA172900A60B6B /* Info.plist */,
+			);
+			path = SchedjTests;
+			sourceTree = "<group>";
+		};
+		CDEA8D591CCA172900A60B6B /* SchedjUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDEA8D5A1CCA172900A60B6B /* SchedjUITests.swift */,
+				CDEA8D5C1CCA172900A60B6B /* Info.plist */,
+			);
+			path = SchedjUITests;
+			sourceTree = "<group>";
+		};
+		CDEA8D681CCA17BB00A60B6B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDEA8D371CCA172900A60B6B /* AppDelegate.swift */,
+				CDEA8D391CCA172900A60B6B /* LoginViewController.swift */,
+				CDEA8D6B1CCA183300A60B6B /* HomeViewController.swift */,
+				CD907CCA1CD324A600170665 /* berkeleypic.jpg */,
+				CDEA8D461CCA172900A60B6B /* Info.plist */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CDEA8D691CCA17C300A60B6B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CDEA8D3B1CCA172900A60B6B /* Main.storyboard */,
+				CDEA8D431CCA172900A60B6B /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CDEA8D6A1CCA17D000A60B6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CDEA8D731CCAAC6600A60B6B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				CDEA8D3E1CCA172900A60B6B /* Schedj.xcdatamodeld */,
+				CDEA8D411CCA172900A60B6B /* Assets.xcassets */,
+				CDEA8D741CCAAC9100A60B6B /* FacebookSDK */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		CDEA8D741CCAAC9100A60B6B /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				CDEA8D6D1CCAAC0A00A60B6B /* FBSDKCoreKit.framework */,
+				CDEA8D6F1CCAAC1400A60B6B /* FBSDKLoginKit.framework */,
+				CDEA8D711CCAAC1E00A60B6B /* FBSDKShareKit.framework */,
+			);
+			name = FacebookSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDEA8D331CCA172800A60B6B /* Schedj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDEA8D5F1CCA172900A60B6B /* Build configuration list for PBXNativeTarget "Schedj" */;
+			buildPhases = (
+				CDEA8D301CCA172800A60B6B /* Sources */,
+				CDEA8D311CCA172800A60B6B /* Frameworks */,
+				CDEA8D321CCA172800A60B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Schedj;
+			productName = Schedj;
+			productReference = CDEA8D341CCA172800A60B6B /* Schedj.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDEA8D4A1CCA172900A60B6B /* SchedjTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDEA8D621CCA172900A60B6B /* Build configuration list for PBXNativeTarget "SchedjTests" */;
+			buildPhases = (
+				CDEA8D471CCA172900A60B6B /* Sources */,
+				CDEA8D481CCA172900A60B6B /* Frameworks */,
+				CDEA8D491CCA172900A60B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDEA8D4D1CCA172900A60B6B /* PBXTargetDependency */,
+			);
+			name = SchedjTests;
+			productName = SchedjTests;
+			productReference = CDEA8D4B1CCA172900A60B6B /* SchedjTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDEA8D551CCA172900A60B6B /* SchedjUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDEA8D651CCA172900A60B6B /* Build configuration list for PBXNativeTarget "SchedjUITests" */;
+			buildPhases = (
+				CDEA8D521CCA172900A60B6B /* Sources */,
+				CDEA8D531CCA172900A60B6B /* Frameworks */,
+				CDEA8D541CCA172900A60B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDEA8D581CCA172900A60B6B /* PBXTargetDependency */,
+			);
+			name = SchedjUITests;
+			productName = SchedjUITests;
+			productReference = CDEA8D561CCA172900A60B6B /* SchedjUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDEA8D2C1CCA172800A60B6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Nimarit Walia";
+				TargetAttributes = {
+					CDEA8D331CCA172800A60B6B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PYKKZV64KJ;
+					};
+					CDEA8D4A1CCA172900A60B6B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PYKKZV64KJ;
+						TestTargetID = CDEA8D331CCA172800A60B6B;
+					};
+					CDEA8D551CCA172900A60B6B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = PYKKZV64KJ;
+						TestTargetID = CDEA8D331CCA172800A60B6B;
+					};
+				};
+			};
+			buildConfigurationList = CDEA8D2F1CCA172800A60B6B /* Build configuration list for PBXProject "Schedj" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDEA8D2B1CCA172800A60B6B;
+			productRefGroup = CDEA8D351CCA172800A60B6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDEA8D331CCA172800A60B6B /* Schedj */,
+				CDEA8D4A1CCA172900A60B6B /* SchedjTests */,
+				CDEA8D551CCA172900A60B6B /* SchedjUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDEA8D321CCA172800A60B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEA8D451CCA172900A60B6B /* LaunchScreen.storyboard in Resources */,
+				CD907CCB1CD324A600170665 /* berkeleypic.jpg in Resources */,
+				CDEA8D421CCA172900A60B6B /* Assets.xcassets in Resources */,
+				CDEA8D3D1CCA172900A60B6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEA8D491CCA172900A60B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEA8D541CCA172900A60B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDEA8D301CCA172800A60B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEA8D3A1CCA172900A60B6B /* LoginViewController.swift in Sources */,
+				CDEA8D401CCA172900A60B6B /* Schedj.xcdatamodeld in Sources */,
+				CDEA8D381CCA172900A60B6B /* AppDelegate.swift in Sources */,
+				CDEA8D6C1CCA183300A60B6B /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEA8D471CCA172900A60B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEA8D501CCA172900A60B6B /* SchedjTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEA8D521CCA172900A60B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDEA8D5B1CCA172900A60B6B /* SchedjUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDEA8D4D1CCA172900A60B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEA8D331CCA172800A60B6B /* Schedj */;
+			targetProxy = CDEA8D4C1CCA172900A60B6B /* PBXContainerItemProxy */;
+		};
+		CDEA8D581CCA172900A60B6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDEA8D331CCA172800A60B6B /* Schedj */;
+			targetProxy = CDEA8D571CCA172900A60B6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDEA8D3B1CCA172900A60B6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDEA8D3C1CCA172900A60B6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDEA8D431CCA172900A60B6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDEA8D441CCA172900A60B6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDEA8D5D1CCA172900A60B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDEA8D5E1CCA172900A60B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDEA8D601CCA172900A60B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Schedj",
+				);
+				INFOPLIST_FILE = Schedj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Walia.Schedj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Schedj/FacebookSDK.h;
+			};
+			name = Debug;
+		};
+		CDEA8D611CCA172900A60B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Schedj",
+				);
+				INFOPLIST_FILE = Schedj/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Walia.Schedj;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Schedj/FacebookSDK.h;
+			};
+			name = Release;
+		};
+		CDEA8D631CCA172900A60B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SchedjTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Walia.SchedjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schedj.app/Schedj";
+			};
+			name = Debug;
+		};
+		CDEA8D641CCA172900A60B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SchedjTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Walia.SchedjTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Schedj.app/Schedj";
+			};
+			name = Release;
+		};
+		CDEA8D661CCA172900A60B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SchedjUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Walia.SchedjUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = FacebookSDK.h;
+				TEST_TARGET_NAME = Schedj;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CDEA8D671CCA172900A60B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SchedjUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Walia.SchedjUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = FacebookSDK.h;
+				TEST_TARGET_NAME = Schedj;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDEA8D2F1CCA172800A60B6B /* Build configuration list for PBXProject "Schedj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEA8D5D1CCA172900A60B6B /* Debug */,
+				CDEA8D5E1CCA172900A60B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDEA8D5F1CCA172900A60B6B /* Build configuration list for PBXNativeTarget "Schedj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEA8D601CCA172900A60B6B /* Debug */,
+				CDEA8D611CCA172900A60B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDEA8D621CCA172900A60B6B /* Build configuration list for PBXNativeTarget "SchedjTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEA8D631CCA172900A60B6B /* Debug */,
+				CDEA8D641CCA172900A60B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDEA8D651CCA172900A60B6B /* Build configuration list for PBXNativeTarget "SchedjUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDEA8D661CCA172900A60B6B /* Debug */,
+				CDEA8D671CCA172900A60B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDEA8D3E1CCA172900A60B6B /* Schedj.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDEA8D3F1CCA172900A60B6B /* Schedj.xcdatamodel */,
+			);
+			currentVersion = CDEA8D3F1CCA172900A60B6B /* Schedj.xcdatamodel */;
+			path = Schedj.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CDEA8D2C1CCA172800A60B6B /* Project object */;
+}
